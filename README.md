@@ -73,7 +73,7 @@ Then use it the way you actually would on a show, and tell us where it fought yo
 - What you did, step by step, what you expected, and what happened instead.
 - Screenshots or a short screen recording. For the stage itself, the studio's built‑in recording is ideal.
 - For live-input problems: console or software name, protocol (sACN / Art‑Net), universe numbers, and whether the PC is on Wi‑Fi or Ethernet.
-- The log file: `%LOCALAPPDATA%\WaveStudio\receiver.log` (paste the path into File Explorer's address bar). Attach it or paste the last 50 lines. It contains no personal data beyond local IP addresses.
+- The log file: `%LOCALAPPDATA%\WaveStudio\receiver.log` on Windows (paste the path into File Explorer's address bar); on macOS, copy the text from the Terminal window the `.command` opened. Attach it or paste the last 50 lines. It contains no personal data beyond local IP addresses.
 
 ### Severity, in your words
 
