@@ -4,9 +4,9 @@ Tester builds of **Virtual SFX Lab** (Module 1: Wave Studio — Explo X2 Wave Fl
 
 This repository holds only release downloads; there is no source code here.
 
-## Latest: 0.31 for Windows
+## Latest: 0.31.1 for Windows (studio V0.31c)
 
-Go to **[Releases](../../releases/latest)** and download `Virtual-SFX-Lab-Windows-0.31-x64.zip`.
+Go to **[Releases](../../releases/latest)** and download `Virtual-SFX-Lab-Windows-0.31.1-x64.zip`. Updating from 0.31: unzip over the old folder (or delete it); layouts and settings in `%LOCALAPPDATA%\WaveStudio` are kept.
 
 1. Unzip anywhere (Desktop is fine). No installer, no admin rights.
 2. Run `Virtual SFX Lab.exe`.
@@ -25,7 +25,7 @@ Because the publisher identity is new, Windows SmartScreen may still show "Windo
 `SHA256SUMS.txt` is attached to each release. On Windows:
 
 ```powershell
-Get-FileHash .\Virtual-SFX-Lab-Windows-0.31-x64.zip -Algorithm SHA256
+Get-FileHash .\Virtual-SFX-Lab-Windows-0.31.1-x64.zip -Algorithm SHA256
 ```
 
 The hash must match the value in `SHA256SUMS.txt`.
@@ -58,7 +58,7 @@ Then use it the way you actually would on a show, and tell us where it fought yo
 
 ### What to include in every report
 
-- Build: `0.31 Windows` (from the launcher title or the release you downloaded).
+- Build: `0.31.1 Windows` (from the launcher title or the release you downloaded).
 - Windows version and display scaling (Settings → System → Display → Scale), plus screen resolution.
 - What you did, step by step, what you expected, and what happened instead.
 - Screenshots or a short screen recording. For the stage itself, the studio's built‑in recording is ideal.
