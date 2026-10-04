@@ -4,7 +4,7 @@ Tester builds of **Virtual SFX Lab** (Module 1: Wave Studio — Explo X2 Wave Fl
 
 This repository holds only release downloads; there is no source code here.
 
-## Latest: 0.31.1 for Windows (studio V0.31c)
+## Latest: 0.31.1 for Windows and macOS (studio V0.31c)
 
 Go to **[Releases](../../releases/latest)** and download `Virtual-SFX-Lab-Windows-0.31.1-x64.zip`. Updating from 0.31: unzip over the old folder (or delete it); layouts and settings in `%LOCALAPPDATA%\WaveStudio` are kept.
 
@@ -13,6 +13,16 @@ Go to **[Releases](../../releases/latest)** and download `Virtual-SFX-Lab-Window
 3. Pick **Start receiver + open studio** if you have a lighting console or Vista 3 sending sACN / Art‑Net on the network, or **Skip for now** to explore the studio standalone.
 
 The app opens on the demo page; the First Guide manual opens automatically the first time you enter the full studio.
+
+### macOS
+
+Download `Virtual-SFX-Lab-macOS-0.31.1.zip` from the same release. It is a readable Python source package, not a signed `.app`.
+
+1. Install **Python 3.10 or newer** from [python.org](https://www.python.org/downloads/macos/) if you do not have it (the universal2 installer). No pip packages are needed.
+2. Unzip, then double-click `Virtual SFX Lab.command`. If macOS says it cannot be opened, right-click → **Open** once (or System Settings → Privacy & Security → **Open Anyway**).
+3. The launcher starts the receiver (same-computer Vista / sACN preselected) and opens the studio in your browser. `Virtual SFX Lab — Preview Only.command` opens the studio without a receiver.
+
+`START-HERE.md` inside the zip explains the modes and the network-interface choice. Vista interoperability on macOS is still pending native testing.
 
 ### About the Windows warning
 
@@ -32,7 +42,7 @@ The hash must match the value in `SHA256SUMS.txt`.
 
 ## Requirements
 
-Windows 10 or 11, 64‑bit. A lighting console or Vista 3 on the same network is only needed for live input.
+Windows 10 or 11, 64‑bit; or macOS 12 or newer with Python 3.10+ and a current browser. A lighting console or Vista 3 on the same network is only needed for live input.
 
 ## Feedback
 
@@ -58,7 +68,7 @@ Then use it the way you actually would on a show, and tell us where it fought yo
 
 ### What to include in every report
 
-- Build: `0.31.1 Windows` (from the launcher title or the release you downloaded).
+- Build: `0.31.1 Windows` or `0.31.1 macOS` (from the launcher title or the release you downloaded).
 - Windows version and display scaling (Settings → System → Display → Scale), plus screen resolution.
 - What you did, step by step, what you expected, and what happened instead.
 - Screenshots or a short screen recording. For the stage itself, the studio's built‑in recording is ideal.
