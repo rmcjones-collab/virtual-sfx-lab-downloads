@@ -1,0 +1,31 @@
+name: Feedback / idea
+description: Something you wish it did, or general impressions after a session
+labels: ["feedback", "tester"]
+body:
+  - type: input
+    id: build
+    attributes:
+      label: Build
+      placeholder: "0.31 Windows"
+  - type: textarea
+    id: context
+    attributes:
+      label: What were you trying to do?
+      description: A sentence or two about the show or rehearsal situation you had in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your feedback or idea
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Your background
+      options:
+        - Pyrotechnician / SFX technician
+        - Lighting designer or console operator
+        - Production / stage management
+        - Other

@@ -1,0 +1,50 @@
+name: Bug report
+description: Something is broken, wrong, or lost your work
+labels: ["bug", "tester"]
+body:
+  - type: input
+    id: build
+    attributes:
+      label: Build
+      placeholder: "0.31 Windows"
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Blocker — can't install, launch, or get into the studio
+        - Wrong — behaves incorrectly or loses work
+        - Rough — works but confusing, slow, or ugly
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Windows version, display scaling, resolution
+      placeholder: "Windows 11 24H2, 150%, 1920×1080"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What you did, step by step
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and what happened instead
+    validations:
+      required: true
+  - type: textarea
+    id: liveinput
+    attributes:
+      label: Live input details (if relevant)
+      description: Console or software, protocol (sACN / Art‑Net), universes, Wi‑Fi or Ethernet.
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots, recordings, and the log
+      description: Drag files here. Log file is at %LOCALAPPDATA%\WaveStudio\receiver.log — attach it or paste the last 50 lines.
