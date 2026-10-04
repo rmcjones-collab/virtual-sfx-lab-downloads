@@ -36,7 +36,12 @@ Windows 10 or 11, 64‑bit. A lighting console or Vista 3 on the same network is
 
 ## Feedback
 
-Please report through **[Issues](../../issues/new/choose)** in this repository; pick **Bug report** or **Feedback / idea**. You need a free GitHub account. If you'd rather not use GitHub, reply to the message that sent you here with the same details.
+Two ways, use whichever is easier:
+
+- **[Tester feedback form](https://docs.google.com/forms/d/e/1FAIpQLSd2nTsyXxWeg4TpHbVNckw4pIf5FeYQs_7vh1HtyQ04IXbB_w/viewform)** — no account needed, about five minutes. Best for your overall impressions after a session.
+- **[GitHub Issues](../../issues/new/choose)** — pick **Bug report** or **Feedback / idea**. Needs a free GitHub account, but lets you attach screenshots and the log directly and follow the fix.
+
+Either way, the details below are what make a report useful.
 
 ### What to test first
 
