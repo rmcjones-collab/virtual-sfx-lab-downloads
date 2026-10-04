@@ -13,7 +13,11 @@ First code-signed Windows build of **Virtual SFX Lab** — Module 1: Wave Studio
 - Receiver 0.31.0: same-origin framing so the in-app manual works; demo page first.
 - Studio: First Guide opens automatically on first open ("Open when the studio starts" toggle).
 
+## Feedback
+- **[Tester feedback form](https://docs.google.com/forms/d/e/1FAIpQLSd2nTsyXxWeg4TpHbVNckw4pIf5FeYQs_7vh1HtyQ04IXbB_w/viewform)** — no account needed, about five minutes.
+- **[Bug report / idea on GitHub Issues](https://github.com/rmcjones-collab/virtual-sfx-lab-downloads/issues/new/choose)** — attach screenshots and the log (`%LOCALAPPDATA%\WaveStudio\receiver.log`).
+
+See the [README](https://github.com/rmcjones-collab/virtual-sfx-lab-downloads#feedback) for what to test first and what to include.
+
 ## Requirements
 Windows 10/11 x64. For live sACN / Art-Net input, a lighting console or Vista 3 on the same network; the app also works standalone with no receiver.
-
-**Full changelog**: https://github.com/rmcjones-collab/virtual-sfx-lab/commits/v0.31
