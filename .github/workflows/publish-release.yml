@@ -1,0 +1,32 @@
+# Attaches the files in releases/<version>/ to a GitHub Release in this repository.
+# The signed zip is produced by the private build repository and copied here.
+name: Publish release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version folder under releases/ (e.g. 0.31)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Verify checksums
+        working-directory: releases/${{ inputs.version }}
+        run: sha256sum -c SHA256SUMS.txt
+      - name: Create or update release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ inputs.version }}
+          name: Virtual SFX Lab ${{ inputs.version }} for Windows
+          body_path: releases/${{ inputs.version }}/NOTES.md
+          make_latest: true
+          files: |
+            releases/${{ inputs.version }}/*.zip
+            releases/${{ inputs.version }}/SHA256SUMS.txt
