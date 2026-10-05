@@ -4,9 +4,9 @@ Tester builds of **Virtual SFX Lab** (Module 1: Wave Studio — Explo X2 Wave Fl
 
 This repository holds only release downloads; there is no source code here.
 
-## Latest: 0.31.1 for Windows and macOS (studio V0.31c)
+## Latest: 0.31.2 for Windows and macOS (studio V0.31c, AI Assist update)
 
-Go to **[Releases](../../releases/latest)** and download `Virtual-SFX-Lab-Windows-0.31.1-x64.zip`. Updating from 0.31: unzip over the old folder (or delete it); layouts and settings in `%LOCALAPPDATA%\WaveStudio` are kept.
+Go to **[Releases](../../releases/latest)** and download `Virtual-SFX-Lab-Windows-0.31.2-x64.zip`. Updating from 0.31 or 0.31.1: unzip over the old folder (or delete it); layouts and settings in `%LOCALAPPDATA%\WaveStudio` are kept.
 
 1. Unzip anywhere (Desktop is fine). No installer, no admin rights.
 2. Run `Virtual SFX Lab.exe`.
@@ -16,7 +16,7 @@ The app opens on the demo page; the First Guide manual opens automatically the f
 
 ### macOS
 
-Download `Virtual-SFX-Lab-macOS-0.31.1.zip` from the same release. It is a readable Python source package, not a signed `.app`.
+Download `Virtual-SFX-Lab-macOS-0.31.2.zip` from the same release. It is a readable Python source package, not a signed `.app`.
 
 1. Install **Python 3.10 or newer** from [python.org](https://www.python.org/downloads/macos/) if you do not have it (the universal2 installer). No pip packages are needed.
 2. Unzip, then double-click `Virtual SFX Lab.command`. If macOS says it cannot be opened, right-click → **Open** once (or System Settings → Privacy & Security → **Open Anyway**).
@@ -35,7 +35,7 @@ Because the publisher identity is new, Windows SmartScreen may still show "Windo
 `SHA256SUMS.txt` is attached to each release. On Windows:
 
 ```powershell
-Get-FileHash .\Virtual-SFX-Lab-Windows-0.31.1-x64.zip -Algorithm SHA256
+Get-FileHash .\Virtual-SFX-Lab-Windows-0.31.2-x64.zip -Algorithm SHA256
 ```
 
 The hash must match the value in `SHA256SUMS.txt`.
@@ -68,7 +68,7 @@ Then use it the way you actually would on a show, and tell us where it fought yo
 
 ### What to include in every report
 
-- Build: `0.31.1 Windows` or `0.31.1 macOS` (from the launcher title or the release you downloaded).
+- Build: `0.31.2 Windows` or `0.31.2 macOS` (from the launcher title or the release you downloaded).
 - Windows version and display scaling (Settings → System → Display → Scale), plus screen resolution.
 - What you did, step by step, what you expected, and what happened instead.
 - Screenshots or a short screen recording. For the stage itself, the studio's built‑in recording is ideal.
