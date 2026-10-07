@@ -4,9 +4,9 @@ Tester builds of **Virtual SFX Lab** (Module 1: Wave Studio — Explo X2 Wave Fl
 
 This repository holds only release downloads; there is no source code here.
 
-## Latest: 0.33.0 for Windows and macOS (studio V0.33b, MA panel and receiver console presets)
+## Latest: 0.33.1 for Windows (studio V0.34, system tray, receiver reliability); macOS package 0.33.0
 
-Go to **[Releases](../../releases/latest)** and download `Virtual-SFX-Lab-Windows-0.33.0-x64.zip`. Updating from any 0.31 build: unzip over the old folder (or delete it); layouts and settings in `%LOCALAPPDATA%\WaveStudio` are kept.
+Go to **[Releases](../../releases/latest)** and download `Virtual-SFX-Lab-Windows-0.33.1-x64.zip`. Updating from 0.33.0 or any 0.31 build: unzip over the old folder (or delete it); layouts and settings in `%LOCALAPPDATA%\WaveStudio` are kept.
 
 1. Unzip anywhere (Desktop is fine). No installer, no admin rights.
 2. Run `Virtual SFX Lab.exe`.
@@ -16,7 +16,7 @@ The app opens on the demo page; the First Guide manual opens automatically the f
 
 ### macOS
 
-Download `Virtual-SFX-Lab-macOS-0.33.0.zip` from the same release. It is a readable Python source package, not a signed `.app`.
+Download `Virtual-SFX-Lab-macOS-0.33.0.zip` from the same release (unchanged since 0.33.0). It is a readable Python source package, not a signed `.app`.
 
 1. Install **Python 3.10 or newer** from [python.org](https://www.python.org/downloads/macos/) if you do not have it (the universal2 installer). No pip packages are needed.
 2. Unzip, then double-click `Virtual SFX Lab.command`. If macOS says it cannot be opened, right-click → **Open** once (or System Settings → Privacy & Security → **Open Anyway**).
