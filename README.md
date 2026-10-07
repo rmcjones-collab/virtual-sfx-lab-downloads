@@ -45,7 +45,7 @@ The hash must match the value in `SHA256SUMS.txt`.
 The hosted studio at [wavestudio.pplx.app](https://wavestudio.pplx.app/welcome.html) carries the newer web build (V0.34). Besides Wave Studio it now offers:
 
 - **[Spark Studio](https://wavestudio.pplx.app/spark/index.html)** — the learning edition for early teens and classrooms: six virtual flames, faders, cues and GO, DMX addresses and universes, music timing, missions with XP, Classroom mode. Runs in the browser; nothing to install.
-- **[Meet Pyro Pete](https://wavestudio.pplx.app/pete/index.html)** — the tutorial guide who lives in Spark Studio. Hover him and press the gear for size, voice, mood and an optional connection to your own AI provider key. The page also offers the **Pyro Pete browser extension** (0.2.0 developer preview, unpacked install for Comet, Chrome, Edge and Brave) that puts him on any web page.
+- **[Meet Pyro Pete](https://wavestudio.pplx.app/pete/index.html)** — the tutorial guide who lives in Wave Studio and Spark Studio. He peeks over the studio footer; click him and he jumps out. Press his settings for size, voice, mood, gravity, a talk-to-Pete microphone and an optional connection to your own AI provider key. The page also offers the **Pyro Pete browser extension** (0.3.1 developer preview, unpacked install for Comet, Chrome, Edge and Brave) that puts him on any web page.
 - **[VSL Info Mode](https://wavestudio.pplx.app/vsl/index.html)** — the point-and-explain browser extension and Android preview.
 
 These are hosted-only developer previews; they are not part of the desktop zips above.
