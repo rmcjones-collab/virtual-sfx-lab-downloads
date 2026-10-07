@@ -35,7 +35,7 @@ Because the publisher identity is new, Windows SmartScreen may still show "Windo
 `SHA256SUMS.txt` is attached to each release. On Windows:
 
 ```powershell
-Get-FileHash .\Virtual-SFX-Lab-Windows-0.33.0-x64.zip -Algorithm SHA256
+Get-FileHash .\Virtual-SFX-Lab-Windows-0.33.1-x64.zip -Algorithm SHA256
 ```
 
 The hash must match the value in `SHA256SUMS.txt`.
@@ -78,7 +78,7 @@ Then use it the way you actually would on a show, and tell us where it fought yo
 
 ### What to include in every report
 
-- Build: `0.33.0 Windows` or `0.33.0 macOS` (from the launcher title or the release you downloaded).
+- Build: `0.33.1 Windows` or `0.33.0 macOS` (from the launcher title or the release you downloaded).
 - Windows version and display scaling (Settings → System → Display → Scale), plus screen resolution.
 - What you did, step by step, what you expected, and what happened instead.
 - Screenshots or a short screen recording. For the stage itself, the studio's built‑in recording is ideal.
