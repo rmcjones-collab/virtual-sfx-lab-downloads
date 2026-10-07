@@ -1,2 +1,0 @@
-619b9d203fe61b0fc8ac81cf26b9395d5ea33cf8d2d83531f1cbaadd45b75827  Virtual-SFX-Lab-Windows-0.33.1-x64.zip
-5eef944e2844902aaf570251dd257bdea2da76b831ee7e9d3cc6cc12c1af8566  Virtual-SFX-Lab-macOS-0.33.0.zip
